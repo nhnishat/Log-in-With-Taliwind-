@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev":"tailwind build -i src/style.css -o dist/style.css",
+    "prod":"tailwind build -i src/style.css -o dist/style.css --minify",
+    "watch":"tailwind build -i src/style.css -o dist/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
